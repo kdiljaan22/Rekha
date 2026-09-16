@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Rekha 🎂</title>
+<meta name="description" content="A little birthday surprise for Rekha">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#090b14;color:#fff;overflow-x:hidden}
+#intro{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;background:radial-gradient(circle at 50% 30%,#3a214d,#090b14 65%);transition:opacity .8s,visibility .8s}
+#intro.hide{opacity:0;visibility:hidden}
+.intro-box{max-width:620px}
+.sparkle{font-size:44px;animation:pulse 1.6s infinite}
+h1{font-size:clamp(42px,10vw,78px);margin:10px 0;background:linear-gradient(90deg,#ffd6e7,#fff,#ffd3a8);-webkit-background-clip:text;color:transparent}
+.intro-box p{font-size:18px;color:#ddd;line-height:1.7}
+button{border:0;border-radius:999px;padding:15px 27px;font-size:16px;font-weight:700;cursor:pointer;background:linear-gradient(135deg,#ff6fa9,#ffb36b);color:#20101a;box-shadow:0 10px 35px #ff6fa955}
+main{min-height:100vh}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 20px;position:relative;background:radial-gradient(circle at 50% 35%,#35203f 0,#151322 35%,#090b14 72%)}
+.hero-inner{max-width:850px;position:relative;z-index:2}
+.badge{display:inline-block;padding:8px 15px;border:1px solid #ffffff22;border-radius:99px;background:#ffffff0d;color:#ffd8e8}
+.hero h2{font-size:clamp(50px,12vw,110px);line-height:.95;margin:22px 0 15px}
+.hero h2 span{display:block;color:#ff8fbb}
+.subtitle{font-size:clamp(18px,3vw,25px);color:#ddd;max-width:650px;margin:auto;line-height:1.6}
+.scroll{margin-top:45px;color:#aaa}
+.section{padding:90px 20px;max-width:1050px;margin:auto}
+.section h3{text-align:center;font-size:38px;margin:0 0 15px}
+.section>p{text-align:center;color:#bfc0ca;max-width:700px;margin:0 auto 45px;line-height:1.7}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.card{background:#ffffff09;border:1px solid #ffffff14;border-radius:25px;padding:10px;box-shadow:0 20px 60px #0008}
+.card img{width:100%;height:520px;object-fit:cover;border-radius:18px;display:block}
+.message{max-width:760px;margin:auto;padding:35px;border-radius:28px;background:linear-gradient(145deg,#ffffff0d,#ffffff05);border:1px solid #ffffff16;box-shadow:0 20px 60px #0007}
+.message p{font-size:19px;line-height:1.9;color:#eee;margin:0 0 18px}
+.signature{text-align:right;color:#ffaccb;font-weight:700}
+.final{text-align:center;padding:100px 20px 130px;background:radial-gradient(circle at 50% 20%,#351d39,#090b14 70%)}
+.final .big{font-size:clamp(50px,12vw,95px);font-weight:800;line-height:1}
+.final p{font-size:20px;color:#ddd}
+footer{text-align:center;padding:25px;color:#777;font-size:13px}
+.heart{position:fixed;pointer-events:none;z-index:10;animation:float 5s linear forwards;opacity:.85}
+.confetti{position:fixed;top:-20px;width:8px;height:14px;z-index:30;animation:fall 4s linear forwards}
+@keyframes pulse{50%{transform:scale(1.1)}}
+@keyframes float{to{transform:translateY(-105vh) rotate(540deg);opacity:0}}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:0}}
+@media(max-width:700px){
+ .gallery{grid-template-columns:1fr}
+ .card img{height:auto;max-height:620px;object-fit:cover}
+ .section{padding:70px 16px}
+}
+</style>
+</head>
+<body>
+<div id="intro">
+  <div class="intro-box">
+    <div class="sparkle">✨🎁✨</div>
+    <h1>Hey Rekha...</h1>
+    <p>I made a little something for you. Since it's your birthday today, you deserve a small surprise. 💖</p>
+    <button onclick="openSurprise()">Open Your Surprise 🎀</button>
+  </div>
+</div>
+
+<main>
+<section class="hero">
+  <div class="hero-inner">
+    <div class="badge">16 September 2026 • A special day ✨</div>
+    <h2>Happy Birthday <span>Rekha ❤️</span></h2>
+    <p class="subtitle">May your day be filled with genuine smiles, beautiful moments, and all the happiness you deserve.</p>
+    <div class="scroll">↓ keep scrolling for your surprise ↓</div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>A few beautiful moments 📸</h3>
+  <p>Two little snapshots, because every birthday surprise deserves a few memories.</p>
+  <div class="gallery">
+    <div class="card"><img src="assets/rekha-1.jpg" alt="Rekha"></div>
+    <div class="card"><img src="assets/rekha-2.jpg" alt="Rekha"></div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>A little message for you 💌</h3>
+  <p>Not a long speech—just something simple and from the heart.</p>
+  <div class="message">
+    <p>Dear Rekha,</p>
+    <p>Today is your day, so I just wanted to remind you how special you are. I hope this new year of your life brings you peaceful days, exciting moments, lots of reasons to smile, and people who genuinely care about you.</p>
+    <p>Keep being yourself, keep smiling, and keep making ordinary days a little brighter just by being you.</p>
+    <p>Have an amazing birthday and a beautiful year ahead. 🎂✨</p>
+    <div class="signature">— Someone who wanted to make you smile ❤️</div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="big">Happy Birthday,<br><span style="color:#ff8fbb">Rekha! 🎂</span></div>
+  <p>May today be the beginning of a wonderful year for you. 🥰</p>
+  <button onclick="celebrate()">Celebrate Again 🎉</button>
+</section>
+<footer>Made with ❤️ as a little birthday surprise for Rekha</footer>
+</main>
+
+<script>
+function openSurprise(){
+  document.getElementById('intro').classList.add('hide');
+  celebrate();
+}
+function celebrate(){
+  for(let i=0;i<55;i++){
+    const c=document.createElement('div');
+    c.className='confetti';
+    c.style.left=Math.random()*100+'vw';
+    c.style.animationDelay=(Math.random()*1.4)+'s';
+    c.style.transform='rotate('+Math.random()*360+'deg)';
+    c.style.background=['#ff8fbb','#ffd166','#8be9fd','#c3f584','#d6a4ff'][Math.floor(Math.random()*5)];
+    document.body.appendChild(c);
+    setTimeout(()=>c.remove(),5500);
+  }
+  for(let i=0;i<10;i++){
+    const h=document.createElement('div');
+    h.className='heart';
+    h.textContent=['❤️','💖','💕','✨'][Math.floor(Math.random()*4)];
+    h.style.left=Math.random()*100+'vw';
+    h.style.bottom='-30px';
+    h.style.fontSize=(18+Math.random()*25)+'px';
+    h.style.animationDelay=(Math.random()*1.5)+'s';
+    document.body.appendChild(h);
+    setTimeout(()=>h.remove(),6500);
+  }
+}
+</script>
+</body>
+</html>
